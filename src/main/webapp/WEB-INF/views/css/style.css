@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {			
+	margin: 6%;
+	background-color: ghostwhite;
+}
+div{
+	border-radius: 20px;
+	padding: 2%;
+	border-style: solid;
+	border-color: lightgrey;
+	background-color: white;
+}
+table.border {
+	margin-left: 5%;
+	border-collapse: collapse;
+	border: 1px solid black;
+}
+th.border, td.border{
+	border: 1px solid black;
+}
+table, th, td {
+	margin-left: 3%;
+	padding: 6px;
+}
+th {
+	background-color: ghostwhite;
+	}
+h1, h2, h3, h4{
+	color: navy;
+}
+.center{
+	text-align: center;
+	}
+p {
+	margin-left: 10px;
+}
+input[type=submit], input[type=reset]{
+	font-weight: bold;
+	padding: 3px 12px;
+	background-color: ghostwhite;
+	margin: 3px 2px;
+	cursor: pointer;
+	border-radius: 6px;
+}
+.subtitle{
+	font-size: 12px;
+}
