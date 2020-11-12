@@ -1,0 +1,8 @@
+Steps:
+
+- CONTROLLER 
+    chiama => REPOSITORY (che fornisce i metodi)
+      chiama => HIBERNATE (che fa da tramite)
+        chiama => DB
+      
+tra CONTROLLER e REPOSITORY esisterebbe un ulteriore strato chiamato SERVICE
